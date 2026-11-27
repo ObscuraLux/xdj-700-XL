@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (C) 2026 Mike Wolf, Obscura Lux (XDJ-700 XL)
+# Copyright (C) 2026 Obscura Lux aka Mike Wolf (XDJ-700 XL)
 # Based on tools/make_patcher.py of XDJ-700 PLUS, Copyright (C) 2026 low trust society
 # SPDX-License-Identifier: GPL-3.0-only
 """Write the XDJ-700 XL patcher: patcher/xdj700_xl_patcher.html.
@@ -68,7 +68,7 @@ NOTICE = """\
 
   - This is not a Pioneer DJ or AlphaTheta product. They have nothing to do
     with it, do not support it, and may refuse service on a modified player.
-  - XDJ-700 XL is by Obscura Lux, designed and built by Mike Wolf. Its FLAC
+  - XDJ-700 XL is designed and built by Obscura Lux aka Mike Wolf. Its FLAC
     playback and other player fixes come from XDJ-700 PLUS by low trust
     society. It is free software under the GNU General Public License
     version 3, provided as is, with no warranty of any kind.
@@ -155,7 +155,7 @@ def render_page(data: dict) -> str:
     mp.PAGE_CORE = HERE / "web_patcher_core.js"
     mp.HOW_TO = HOW_TO
     mp.template_notice = lambda: NOTICE
-    mp.zip_title = lambda d: d["build"] + (" (" + d["date"] + ")" if d.get("date") else "") + ". Obscura Lux. Designed and built by Mike Wolf"
+    mp.zip_title = lambda d: d["build"] + (" (" + d["date"] + ")" if d.get("date") else "") + ". Designed and built by Obscura Lux aka Mike Wolf"
     return mp.render_page(data)
 
 

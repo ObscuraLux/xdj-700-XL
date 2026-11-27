@@ -1,4 +1,4 @@
-/* Copyright (C) 2026 Mike Wolf, Obscura Lux (XDJ-700 XL). Based on the XDJ-700 PLUS patcher, Copyright (C) 2026 low trust society. */
+/* Copyright (C) 2026 Obscura Lux aka Mike Wolf (XDJ-700 XL). Based on the XDJ-700 PLUS patcher, Copyright (C) 2026 low trust society. */
 /*
  * XDJ-700 XL patcher, the part that does the work, for the web page
  * (tools/web_patcher_template.html; tools/make_patcher.py puts both into

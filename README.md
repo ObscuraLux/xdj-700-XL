@@ -2,7 +2,7 @@
 
 Unofficial firmware for the Pioneer DJ XDJ-700: **3-band scrolling waveforms** like the CDJ-3000X, plus **FLAC** and **hi-res WAV / AIFF** playback. Based on the official firmware 1.15.
 
-**Obscura Lux.** Designed and built by **Mike Wolf** in Berlin. FLAC playback and the other player fixes come from [XDJ-700 PLUS](https://github.com/lowtrustsociety/XDJ-700-PLUS) by low trust society, which XDJ-700 XL includes in full.
+Designed and built by **Obscura Lux aka Mike Wolf**. FLAC playback and the other player fixes come from [XDJ-700 PLUS](https://github.com/lowtrustsociety/XDJ-700-PLUS) by low trust society, which XDJ-700 XL includes in full.
 
 > **Unofficial and experimental. FLASHING FIRMWARE IS AT YOUR OWN RISK.**
 > It can leave a player unusable. There is no warranty of any kind, and no one who made or shared it is responsible for any damage or loss.
@@ -70,7 +70,7 @@ The build is deterministic: it gives the SHA-256 above, and the page's engine, r
 
 ## Credits and licence
 
-- **XDJ-700 XL** (3-band waveform, WAVE COLOR, the XL patcher page, the guide): Obscura Lux, designed and built by Mike Wolf.
+- **XDJ-700 XL** (3-band waveform, WAVE COLOR, the XL patcher page, the guide): designed and built by Obscura Lux aka Mike Wolf.
 - **XDJ-700 PLUS** (FLAC and hi-res playback, the other player fixes, the build tools and the patching engine the XL page is built on): low trust society, [github.com/lowtrustsociety/XDJ-700-PLUS](https://github.com/lowtrustsociety/XDJ-700-PLUS).
 - **dr_flac** by David Reid (public domain or MIT-0).
 

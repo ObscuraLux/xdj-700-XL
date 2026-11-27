@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/* Copyright (C) 2026 Mike Wolf, Obscura Lux (XDJ-700 XL); based on XDJ-700 PLUS, Copyright (C) 2026 low trust society
+/* Copyright (C) 2026 Obscura Lux aka Mike Wolf (XDJ-700 XL); based on XDJ-700 PLUS, Copyright (C) 2026 low trust society
  * SPDX-License-Identifier: GPL-3.0-only */
 /*
  * Runs pieces of the web page's patcher (tools/web_patcher_core.js) in Node,
